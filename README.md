@@ -1,4 +1,4 @@
-ESRGAN CLI Package
+![](assets/Untitled-2023-05-18-0327.png)
 
 The ESRGAN CLI package is a command-line tool that enhances images using the ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks) algorithm. It provides a convenient interface to interact with an ESRGAN API service and process images for improved visual quality.
 
