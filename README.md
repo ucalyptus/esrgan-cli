@@ -12,6 +12,9 @@ The ESRGAN CLI package is a command-line tool that enhances images using the ESR
 ## Usage:
 `esrgan <service_url> <img_url> <output_filename>`
 
+Example:
+- `esrgan https://cf13-35-197-62-150.ngrok-free.app "https://static.wikia.nocookie.net/breakingbad/images/b/b4/Walter_2008.png/revision/latest?cb=20200704164147" walter`
+
 ## Installation:
 `pip install esrgan-cli`
 
