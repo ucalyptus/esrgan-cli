@@ -10,6 +10,12 @@ jobs:
     name: Publish Package
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        shell: bash
+        env:
+          NODE_VERSION: 16
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
