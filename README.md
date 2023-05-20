@@ -20,7 +20,12 @@ Example:
 
 Click [here](SERVICE.md) for service_url setup details.
 
-Note: This package requires an active internet connection to access the ESRGAN API service.
+## Docker Setup
+- `docker build -t esrgan-service .`
+- `docker run --gpus all -p 5000:5000 esrgan-service`
+
+
+Please note that these commands assume that you have Docker installed and configured properly on your system. Additionally, if you have made any modifications to the Dockerfile, ensure that the necessary dependencies and files are included for the ESRGAN service to function correctly.
 
 Contributions and bug reports are welcome!
 
